@@ -42,7 +42,7 @@ A partial list of parts that need to be purchased. This is a work in progress.
 | Whiteboard                                | 1        |                                                                                                                                                                       | ~3' x ~4'                                      |
 | Markers                                   | ?        |                                                                                                                                                                       | Quartet bullet tip dry erase markers are great |
 | Wire                                      | lots     |                                                                                                                                                                       |                                                |
-| Connectors                                |          |                                                                                                                                                                       | dupont? jst-xh? airplane?                      |
+| Connectors                                | ?        |                                                                                                                                                                       | dupont? jst-xh? airplane?                      |
 
 ## Printed parts
 
@@ -80,15 +80,31 @@ A partial list of parts that need to be purchased. This is a work in progress.
 
 This is a rough outline of the steps.
 
-1. Print the parts
-2. Assemble the frame
-3. Mount the whiteboard and frame to the wall, such that the frame is ??mm from
-   the whiteboard
-4. Attach the gantry carriages to the horizontal frame rails
-5. Attach the gantry rail to the gantry carriages
-6. Attach the y carriage to the gantry rail
-7. Attach the motors to the motor plates
-8. Attach the motor plates to the corner braces
-9. Route the belt
-10. Tension the belt
-11.
+1. Fixed parts
+   1. Print the parts
+   2. Assemble the frame
+   3. Mount the whiteboard and frame to the wall, such that the frame is ??mm
+      from the whiteboard
+2. Carriages and gantry
+   1. Attach the gantry carriages to the horizontal frame rails
+   2. Attach the gantry rail to the gantry carriages
+   3. Attach the y carriage to the gantry rail
+3. Belts and motors
+   1. Attach the motors to the motor plates
+   2. Route the belt
+   3. Attach the motor plates to the corner braces loosely
+   4. Tension the belt by pulling the motor plates away from the center of the
+      machine
+   5. Tighten the motor plates to the corner braces
+4. Enclosure
+   1. Wire from the power inlet to the power supply
+   2. Wire from the power supply to the controller
+   3. Wire from the controller to the five ports
+5. Wiring
+   1. Attach the drag chains
+   2. Wire from motors to enclosure
+   3. Wire from servo to enclosure
+   4. Attach end stops
+   5. Wire from end stops to enclosure
+6. Configure
+   1. Install the fluidnc yaml config file.
